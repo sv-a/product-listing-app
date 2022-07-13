@@ -1,0 +1,21 @@
+{
+  "name": "product-listing-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "heroku-prebuild": "cd client && npm install && npm run build && cd .. && cd server && npm install",
+    "start-server": "cd server && npm start",
+    "start-client": "cd client npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sv-a/product-listing-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sv-a/product-listing-app/issues"
+  },
+  "homepage": "https://github.com/sv-a/product-listing-app#readme"
+}
