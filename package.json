@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild": "npm install --prefix ./client && npm install --prefix ./server && npm run build && npm run build --prefix ./client",
+    "heroku-prebuild": "npm install --prefix ./client && npm install --prefix ./server && npm run build --prefix ./server && npm run build --prefix ./client",
     "start-server": "cd server && npm start",
     "start-client": "cd client npm start"
   },
