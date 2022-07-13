@@ -1,4 +1,4 @@
-# product-listing-app
+# Product listing app
 
 ### How to get started
 
@@ -20,8 +20,8 @@ Run `npm run test` or `yarn test` in terminal in client folder.
 Run server `npm run dev` or `yarn dev` in second terminal in server folder. 
 
 
-
-This project is deployed to Heroku. 
+## Deployment
+This project is deployed using Heroku. 
 
 App client is deployed on https://product-listing-app-demo.herokuapp.com/ 
 
