@@ -6,7 +6,7 @@ const nextConfig = {
   images: {
     domains: [
       'fakestoreapi.com',
-      isDev ? 'http://localhost:8000' : 'https://product-listing-app-test.herokuapp.com/',
+      isDev ? 'http://localhost:8000' : 'https://product-listing-app-test.herokuapp.com',
     ],
   },
 }
