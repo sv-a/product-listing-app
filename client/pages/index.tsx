@@ -85,7 +85,7 @@ const Home: NextPage<{ products: Product[] }> = ({ products }) => {
 }
 
 export async function getStaticProps() {
-  const response = await fetch('http://localhost:8000/products')
+  const response = await fetch(`${process.env.API_URL}/products`)
   const products = await response.json();
 
   return {
