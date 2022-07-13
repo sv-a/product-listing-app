@@ -13,5 +13,5 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v4
         with:
-          build: npm run build
-          test: npm run test
+          build: npm run build --prefix ./client
+          test: npm run test --prefix ./client
