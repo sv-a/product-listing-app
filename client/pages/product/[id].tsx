@@ -78,7 +78,7 @@ export async function getStaticPaths(): Promise<GetStaticPathsResult> {
 
 
 export async function getStaticProps({ params }: GetStaticPropsContext<{ id?: string }>): Promise<GetStaticPropsResult<IProps>> {
-  const data = await fetch(`${process.env.API_URL}${params?.id?.toString()}`);
+  const data = await fetch(`${process.env.API_URL}products/${params?.id?.toString()}`);
   const product = await data.json();
 
   if (product.error) {
